@@ -32,8 +32,8 @@
     </check>
     <check level="warning" class="org.scalastyle.scalariform.FieldNamesChecker" enabled="true">
         <parameters>
-            <parameter name="regex">^[a-zA-Z][A-Za-z_]{0,29}[0-9]{0,2}$</parameter>
-            <parameter name="objectFieldRegex">^[A-Z][A-Za-z]{1,29}$</parameter>
+            <parameter name="regex">^[a-zA-Z][A-Za-z0-9]{0,29}$</parameter>
+            <parameter name="objectFieldRegex">^[A-Z][A-Za-z0-9]{1,29}$</parameter>
         </parameters>
     </check>
     <check level="warning" class="org.scalastyle.scalariform.MethodNamesChecker" enabled="true">
